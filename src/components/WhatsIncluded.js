@@ -40,11 +40,6 @@ const TextWrapper = styled.div`
 flex: 1;
 padding: 20px;
 text-align: left;  // Changed from center to left
-transition: all 0.3s ease;
-
-&:hover {
-  transform: scale(1.05);
-}
 `;
 
 const WhatTitle = styled.h2`

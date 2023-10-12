@@ -52,9 +52,9 @@ const Contact = ({id}) => {
       </ContactList>
       <h3>Follow the Buffalo Common Council:</h3>
       <ContactList>
-        <ContactItem><ContactLink href="#facebook">Facebook</ContactLink></ContactItem>
-        <ContactItem><ContactLink href="#twitter">Twitter</ContactLink></ContactItem>
-        <ContactItem><ContactLink href="#instagram">Instagram</ContactLink></ContactItem>
+        <ContactItem><ContactLink href="https://www.facebook.com/BFLOCC">Facebook</ContactLink></ContactItem>
+        <ContactItem><ContactLink href="https://twitter.com/BFLO_CC">Twitter</ContactLink></ContactItem>
+        <ContactItem><ContactLink href="https://www.instagram.com/bflo_cc/">Instagram</ContactLink></ContactItem>
       </ContactList>
       <Footer>
         © 2023 Buffalo Common Council. All Rights Reserved.
