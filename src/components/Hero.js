@@ -17,7 +17,7 @@ const HeroSection = styled.section`
 }
 
 @media (max-width: 1081px) {
-    position: relative;
+  background: #00005A;
 
 
 background-size: cover;
@@ -53,6 +53,7 @@ const VideoWrapper = styled.div`
 
     @media (max-width: 1081px) {
         display: none;
+        background: #05215e;
       }
   }
 `;
@@ -165,7 +166,7 @@ const Hero = () => {
       <CenterText as={animated.div} style={animationProps}>
         <Logo src={logo} alt="Buffalo Common Council Logo" />
         <h3>
-          A free event series taking place at five locations in Buffalo...
+        Don't Miss This Free Event Series Across Five Unique Locations! Get Prepared for Winter and Connect with Your Community. Click Below to Register Now and Secure Your Spot!
         </h3>
         <RegisterButton href="https://forms.gle/fHducFesGRuNT3X57">Register for Free</RegisterButton>
       </CenterText>

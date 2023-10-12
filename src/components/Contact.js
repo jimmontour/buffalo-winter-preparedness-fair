@@ -45,10 +45,10 @@ const Contact = ({id}) => {
     <ContactWrapper id={id}>
       <h2>Get Involved:</h2>
       <ContactList>
-        <ContactItem><ContactLink href="#registration">Resident Registation</ContactLink></ContactItem>
-        <ContactItem><ContactLink href="#volunteer">Volunteer Opportunities</ContactLink></ContactItem>
-        <ContactItem><ContactLink href="#organization">Become A Sponsor</ContactLink></ContactItem>
-        <ContactItem><ContactLink href="mailto:info@example.com">Media Inquiries</ContactLink></ContactItem>
+        <ContactItem><ContactLink href="https://docs.google.com/forms/d/e/1FAIpQLSeN23P1JXUPmZ_YigzLgV0aFAifgJv1yYUWTAVLBx7f0zamkg/viewform">Resident Registation</ContactLink></ContactItem>
+        <ContactItem><ContactLink href="/contact">Volunteer Opportunities</ContactLink></ContactItem>
+        <ContactItem><ContactLink href="/contact">Become A Sponsor</ContactLink></ContactItem>
+        <ContactItem><ContactLink href="/contact">Media Inquiries</ContactLink></ContactItem>
       </ContactList>
       <h3>Follow the Buffalo Common Council:</h3>
       <ContactList>

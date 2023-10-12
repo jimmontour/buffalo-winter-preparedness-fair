@@ -32,7 +32,7 @@ const LocationsTitle = styled.h2`
   color: var(--color-accent);
   z-index: 100;
   margin: 0;
-  padding: 0;
+  padding: 1rem 0 3rem 0;
 `;
 
 const DatesList = styled.div`
@@ -181,9 +181,6 @@ const LocationsAndDates = ({id}) => {
   return (
     <Wrapper id={id}>
       <LocationsTitle>Locations & Dates</LocationsTitle>
-      <StyledParagraph>
-      We've strategically planned this event series to encompass all key areas of the city—East, West, North, South, and Downtown. This ensures convenient access for residents, making it easier for you to attend an event close to your location.
-      </StyledParagraph>
       <DatesList>
         <DateItem>
           <EventDate>November 2, 2023</EventDate>
