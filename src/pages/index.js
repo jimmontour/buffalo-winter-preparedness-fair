@@ -8,6 +8,8 @@ import SponsorsPartnersParticipants from '../components/SponsorsPartnersParticip
 import Contact from '../components/Contact';
 import EventInfo from '../components/EventInfo';
 import Navbar from '../components/Navbar';
+import 'normalize.css';
+
 
 const PageWrapper = styled.div`
   font-family: Arial, sans-serif;
