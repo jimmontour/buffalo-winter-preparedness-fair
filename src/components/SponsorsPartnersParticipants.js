@@ -10,6 +10,7 @@ import mission from '../images/buffalocitymission.png';
 import fuel from '../images/nationalfuel.png';
 import grid from '../images/nationalgrid.png';
 import police from '../images/police.png';
+import ecss from '../images/ecss.jpg';
 
 
 const Wrapper = styled.div`
@@ -165,6 +166,14 @@ const SponsorsPartnersParticipants = ({id}) => {
         providing: 'Providing residents with information about city services, local ordinances, and reporting mechanisms.',
         website: 'https://www.buffalony.gov/463/Contact-311',
         logo: threeoneone
+      }, 
+      {
+        id: 9,
+        name: 'Erie County Department of Social Services',
+        description: 'The Erie County Department of Social Services provides various assistance programs and services to support the well-being of residents.',
+        providing: 'The department will offer guidance on HEAP, SNAP, and STAR for warmth and food security, as well as emergency home repair services for a safe winter.',
+        website: 'https://www3.erie.gov/socialservices/',
+        logo: ecss
       }, 
   ];
 
