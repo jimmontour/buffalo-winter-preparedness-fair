@@ -2,6 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import backgroundImage from '../images/buffalowinterbackground.jpg'; 
+import 'normalize.css';
 
 const RegistrationWrapper = styled.div`
   position: relative;
@@ -26,8 +27,6 @@ const RegistrationWrapper = styled.div`
     background: rgba(0, 0, 0, 0.6);
     z-index: -100;
   }
-
-
 `;
 
 const FormContainer = styled.div`
@@ -56,7 +55,6 @@ const FormContainer = styled.div`
     border-radius: 10px;
     width: 50%;
   }
-
   h1 {
     color: var(--color-accent);
   }
