@@ -7,55 +7,29 @@ import logo from '../images/logo.png';
 import backgroundImage from '../images/buffalowinterbackground.jpg'; 
 
 const HeroSection = styled.section`
-  position: relative;
-  color: #fff;
-  padding: 3rem 0;
-  text-align: center;
-
-  @media (max-width: 1370px) {
-    padding: 6rem 0;
-}
-
-@media (max-width: 1081px) {
-  background: #00005A;
-
-
+position: relative;
+background-image: url(${backgroundImage});
 background-size: cover;
 background-position: center;
-}
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 3rem 1rem 6rem 1rem;
 
-
-
-  @media (max-width: 768px) {
-    background: #00005A;
-    height: 70vh;
-  }
-  
-`;
-
-const VideoWrapper = styled.div`
+&::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 80vh;
-  z-index: -2;
-  overflow: hidden;
-  
-  iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100vw;
-    min-height: 100vh; 
- 
-    transform: translate(-50%, -50%);
-
-    @media (max-width: 1081px) {
-        display: none;
-        background: #05215e;
-      }
-  }
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+position: relative;
+  color: #fff;
+  padding: 3rem 0;
+  text-align: center;
 `;
 
 const Overlay = styled.div`
@@ -64,16 +38,14 @@ const Overlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 150, 0.6); // Blue, semi-transparent
-  z-index: -1;
+  background: rgba(0, 0, 150, 0.8); // Blue, semi-transparent
+  z-index: 0;
 `;
 
 const Logo = styled.img`
-  width: 60%;
+  width: 50%;
   height: auto;
-  margin: 4rem 0 0 0;
-
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     width: 90%;
 `;
 
@@ -88,7 +60,6 @@ const CenterText = styled.div`
   h1 {
     font-size: 4rem;
     color: var(--color-accent);
-    margin: 0 0 2rem 0;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);  /* horizontal, vertical, blur, color */
     font-weight: 500;
 
@@ -159,9 +130,6 @@ const Hero = () => {
 
   return (
     <HeroSection>
-      <VideoWrapper>
-        <YouTube videoId="QL_96Thsil0" opts={videoOptions} />
-      </VideoWrapper>
       <Overlay />
       <CenterText as={animated.div} style={animationProps}>
         <Logo src={logo} alt="Buffalo Common Council Logo" />

@@ -34,6 +34,14 @@ const OrgGrid = styled.div`
     gap: 2rem;
     align-items: stretch;  
 
+    @media (max-width: 1425px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 1057px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
     @media (max-width: 768px) {
     display: block;
   }

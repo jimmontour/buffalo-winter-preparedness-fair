@@ -43,9 +43,14 @@ width: 80%;
 justify-items: center;  
 align-items: top;
 
+@media (max-width: 1200px) {
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  }
+
 @media (max-width: 768px) {
-    display: block;
     width: 100%;
+    display: block;
   }
 `;
 
@@ -67,6 +72,10 @@ text-align: center;
 width: 90%;
 background-color: white;
 color: #010713;
+
+@media (max-width: 1300px) {
+
+  }
 
 @media (max-width: 768px) {
     margin: 0 auto 1rem auto;
