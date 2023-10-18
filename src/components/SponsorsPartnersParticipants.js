@@ -11,6 +11,10 @@ import fuel from '../images/natfuel2.png';
 import grid from '../images/nationalgrid.png';
 import police from '../images/police.png';
 import ecss from '../images/ecss.jpg';
+import nu from '../images/nu.jpg';
+import bps from '../images/bps.png';
+import mha from '../images/mha.png';
+import cmc from '../images/cmc.png';
 
 
 const Wrapper = styled.div`
@@ -174,6 +178,38 @@ const SponsorsPartnersParticipants = ({id}) => {
         providing: 'The department will offer guidance on HEAP, SNAP, and STAR for warmth and food security, as well as emergency home repair services for a safe winter.',
         website: 'https://www3.erie.gov/socialservices/',
         logo: ecss
+      }, 
+      {
+        id: 10,
+        name: 'Border Community SERVICE of Niagara University',
+        description: 'Border Community SERVICE of Niagara University is a nonprofit organization dedicated to providing assistance and support to communities along the border region.',
+        providing: 'They will be offering emergency blankets and great resources on how to handle weather emergencies.',
+        website: 'https://www.niagara.edu/border-community-service/',
+        logo: nu
+      }, 
+      {
+        id: 11,
+        name: 'Buffalo Public Schools',
+        description: 'BBuffalo Public Schools is an educational institution committed to fostering the growth and development of students in Western New York.',
+        providing: ' They offer tabling services to share valuable family resources and provide information about local food banks, contributing to the well-being of the community.',
+        website: 'https://www.buffaloschools.org/',
+        logo: bps
+      }, 
+      {
+        id: 12,
+        name: 'Mental Health Advocates of WNY',
+        description: 'Mental Health Advocates of Western New York is an organization dedicated to raising awareness and providing support for mental health issues in the region.',
+        providing: 'They offer information and resources about seasonal depression, helping individuals understand and cope with this common mental health challenge.',
+        website: 'https://mhawny.org/',
+        logo: mha
+      }, 
+      {
+        id: 13,
+        name: 'Care Management Coalition of WNY',
+        description: 'The Care Management Coalition is a group committed to improving healthcare coordination and management in Western New York.',
+        providing: 'They will supply COVID-19 prevention materials, contributing to the safety and well-being of event attendees.',
+        website: 'https://www.caremanagementcoalitionwny.org/',
+        logo: cmc
       }, 
   ];
 
