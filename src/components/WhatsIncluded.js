@@ -99,7 +99,8 @@ const WhatsIncluded = () => {
       <ContentWrapper>
         <TextWrapper>
           <BenefitsList>
-            <ListItem>"Build Your Own" Winter Weather Care Kits: Includes flashlights, batteries, toiletries, hand warmers, and more.</ListItem>
+            <ListItem>"Build Your Own" Winter Weather Care Kits</ListItem>
+            <ListItem>Hands-on trainings and educational opportunities</ListItem>
             <ListItem>Food & Shelter Resources: Information on local shelters and food resources.</ListItem>
             <ListItem>Register for Assistance Programs: Sign up for crucial support programs.</ListItem>
             <ListItem>Community Engagement: Foster a sense of community and shared responsibility.</ListItem>

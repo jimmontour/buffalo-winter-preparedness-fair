@@ -7,7 +7,6 @@ import blockclubs from '../images/blockclubs.jpg';
 import twooneone from '../images/211.png';
 import threeoneone from '../images/311.png';
 import mission from '../images/buffalocitymission.png';
-import fuel from '../images/nationalfuel.png';
 import fuel from '../images/natfuel2.png';
 import grid from '../images/nationalgrid.png';
 import police from '../images/police.png';
