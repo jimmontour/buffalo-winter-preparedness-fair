@@ -15,6 +15,7 @@ import nu from '../images/nu.jpg';
 import bps from '../images/bps.png';
 import mha from '../images/mha.png';
 import cmc from '../images/cmc.png';
+import hm from '../images/hm.jpg';
 
 
 const Wrapper = styled.div`
@@ -210,6 +211,14 @@ const SponsorsPartnersParticipants = ({id}) => {
         providing: 'They will supply COVID-19 prevention materials, contributing to the safety and well-being of event attendees.',
         website: 'https://www.caremanagementcoalitionwny.org/',
         logo: cmc
+      }, 
+      {
+        id: 14,
+        name: 'Highmark Western New York',
+        description: 'Highmark Western New York is a healthcare organization dedicated to providing quality health services and support in the region.',
+        providing: 'They will supply gloves and neck warmers, as well as information and other support for residents.',
+        website: 'https://www.highmark.com/',
+        logo: hm
       }, 
   ];
 
