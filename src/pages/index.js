@@ -11,6 +11,7 @@ import Navbar from '../components/Navbar';
 import Prizes from '../components/Prizes';
 import Shots from '../components/Shots';
 import Bags from '../components/Bags';
+import MeetYourCouncilMember from '../components/MeetYourCouncilMember';
 import 'normalize.css';
 
 
@@ -36,6 +37,7 @@ const IndexPage = () => {
       <Bags />
       <Shots />
       <SponsorsPartnersParticipants id="sponsors"/>
+      <MeetYourCouncilMember />
       <Contact />
     </PageWrapper>
   );
