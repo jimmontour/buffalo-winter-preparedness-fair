@@ -8,6 +8,9 @@ import SponsorsPartnersParticipants from '../components/SponsorsPartnersParticip
 import Contact from '../components/Contact';
 import EventInfo from '../components/EventInfo';
 import Navbar from '../components/Navbar';
+import Prizes from '../components/Prizes';
+import Shots from '../components/Shots';
+import Bags from '../components/Bags';
 import 'normalize.css';
 
 
@@ -29,6 +32,9 @@ const IndexPage = () => {
       <EventInfo id="about" />
       <LocationsAndDates id="locations-dates"/>
       <WhatsIncluded />
+      <Prizes />
+      <Bags />
+      <Shots />
       <SponsorsPartnersParticipants id="sponsors"/>
       <Contact />
     </PageWrapper>

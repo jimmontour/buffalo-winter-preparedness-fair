@@ -16,6 +16,10 @@ import bps from '../images/bps.png';
 import mha from '../images/mha.png';
 import cmc from '../images/cmc.png';
 import hm from '../images/hm.jpg';
+import tops from '../images/tops.png';
+import nfrrs from '../images/nfrrs.png';
+import wegmans from '../images/wegmans.png';
+import nfta from '../images/nfta.png';
 
 
 const Wrapper = styled.div`
@@ -216,9 +220,41 @@ const SponsorsPartnersParticipants = ({id}) => {
         id: 14,
         name: 'Highmark Western New York',
         description: 'Highmark Western New York is a healthcare organization dedicated to providing quality health services and support in the region.',
-        providing: 'They will supply gloves and neck warmers, as well as information and other support for residents.',
+        providing: 'They provide tote bags, glove warmers, neck warmers, and valuable information resources, enhancing the event experience.',
         website: 'https://www.highmark.com/',
         logo: hm
+      }, 
+      {
+        id: 15,
+        name: 'Wegmans',
+        description: 'Wegmans is a grocery store chain and pharmacy that cares about community health.',
+        providing: 'They offer on-site flu shots, promoting community wellness.',
+        website: 'https://www.wegmans.com/',
+        logo: wegmans
+      }, 
+      {
+        id: 16,
+        name: 'NFTA',
+        description: 'NFTA is committed to providing reliable transportation services in the region.',
+        providing: 'They offer a winter rider fact sheet with resources and information to ensure safe transportation during winter.',
+        website: 'https://www.nfta.com/',
+        logo: nfta
+      }, 
+      {
+        id: 17,
+        name: 'Niagara Frontier Radio Reading Service',
+        description: 'Niagara Frontier Radio Reading Service focuses on serving residents with hearing impairments and disabilities.',
+        providing: 'They offer services for residents who are hard of hearing, hearing impaired, and deaf, along with resources to support individuals with disabilities.',
+        website: 'http://nfradioreading.org/',
+        logo: nfrrs
+      }, 
+      {
+        id: 18,
+        name: 'Tops',
+        description: 'Tops is a grocery store chain and pharmacy that cares about community health.',
+        providing: 'TOPS is generously offering $100 gift cards as door prizes at all five events.',
+        website: 'http://nfradioreading.org/',
+        logo: tops
       }, 
   ];
 
