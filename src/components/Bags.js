@@ -148,6 +148,14 @@ const Bags = () => {
               <Checkmark>✓</Checkmark>
               Candles
             </ListItem>
+            <ListItem>
+              <Checkmark>✓</Checkmark>
+              Notepad
+            </ListItem>
+            <ListItem>
+              <Checkmark>✓</Checkmark>
+              Tissues
+            </ListItem>
           </SuppliesList>
           <Note>And more! Only registered guests will be guaranteed bags, so register today!</Note>
           <RegisterButton><Link to="https://forms.gle/76ZgbPz9XiLwcbpu6">Register Now</Link></RegisterButton>

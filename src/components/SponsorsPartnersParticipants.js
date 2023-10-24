@@ -20,6 +20,9 @@ import tops from '../images/tops.png';
 import nfrrs from '../images/nfrrs.png';
 import wegmans from '../images/wegmans.png';
 import nfta from '../images/nfta.png';
+import ecdoh from '../images/ecdoh.png';
+import ehp from '../images/ehp.jpg';
+import dival from '../images/dival.png';
 
 
 const Wrapper = styled.div`
@@ -189,7 +192,7 @@ const SponsorsPartnersParticipants = ({id}) => {
         name: 'Border Community SERVICE of Niagara University',
         description: 'Border Community SERVICE of Niagara University is a nonprofit organization dedicated to providing assistance and support to communities along the border region.',
         providing: 'They will be offering emergency blankets and great resources on how to handle weather emergencies.',
-        website: 'https://www.niagara.edu/border-community-service/',
+        website: 'https://www.niagara.edu/',
         logo: nu
       }, 
       {
@@ -250,12 +253,36 @@ const SponsorsPartnersParticipants = ({id}) => {
       }, 
       {
         id: 18,
-        name: 'Tops',
-        description: 'Tops is a grocery store chain and pharmacy that cares about community health.',
-        providing: 'TOPS is generously offering $100 gift cards as door prizes at all five events.',
-        website: 'http://nfradioreading.org/',
+        name: 'Tops Friendly Market',
+        description: 'Tops Friendly Market is a grocery store chain and pharmacy that cares about community health.',
+        providing: 'Tops Friendly Market is generously offering $100 gift cards as door prizes at all five events.',
+        website: 'https://www.topsmarkets.com/',
         logo: tops
       }, 
+      {
+        id: 19,
+        name: 'Erie County Department of Health',
+        description: 'Erie County Department of Health is dedicated to enhancing the quality of life for its residents by prioritizing public health, safety, and well-being, and by continuously striving to meet the evolving needs of the community it serves',
+        providing: 'The Erie County Department of Health is actively promoting winter preparedness through "Let’s Get Ready for Winter” newsletters, offering $20 TOPS gift cards as raffle prizes to incentivize participation in a winter preparedness survey aimed at better serving the community.',
+        website: 'https://www3.erie.gov/health/',
+        logo: ecdoh
+      },
+      {
+        id: 20,
+        name: 'Elderwood Health Plan',
+        description: 'Elderwood Health Plan has a dedication to enhancing the health and well-being of individuals in their care is evident in their comprehensive healthcare services, community engagement, and commitment to person-centered care.',
+        providing: 'Elderwood Health Plan is contributing to the event by providing essential supplies, including tissues and notepads, along with valuable informational resources.',
+        website: 'https://www.elderwoodhealthplan.com/',
+        logo: ehp
+      },  
+      {
+        id: 21,
+        name: 'DiVal Safety Equipment',
+        description: ' DiVal Safety Equipment is a reputable and trusted provider of safety and protective equipment, services, and solutions.',
+        providing: 'DiVal Safety is generously contributing to the event by providing a significant donation of essential winter items to help attendees stay warm and safe during the colder months, including 304 Pairs of Insulated Gloves, 160 Individual Hand Warmers, and 20 Knit Winter Hats',
+        website: 'https://www.divalsafety.com/',
+        logo: dival
+      },  
   ];
 
   return (
