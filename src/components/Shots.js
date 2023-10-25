@@ -62,9 +62,9 @@ const Shots = ({ id }) => {
         <TextContainer>
           <InfoTitle>Get Your Free Flu Shot!</InfoTitle>
           <InfoParagraph>
-          We're pleased to announce that Wegmans Pharmacy will be at every event location, except at the Northwest Buffalo Community Center, where they'll be administering free flu shots! To ensure you receive your flu shot, it's important to register in advance.
+          We're pleased to announce that Wegmans Pharmacy will be at select locations, where they'll be administering free flu and COVID shots! To ensure you receive your flu and/or COVID shot, it's important to register in advance.
 
-If you plan to attend the event at the Northwest Buffalo Community Center, please indicate this when signing up. We'll provide you with information on the nearest location where you can conveniently get your free flu shot. Your health and well-being are our priorities, and we want to make it easy for you to stay protected during the flu season. Register today to secure your spot and access this valuable service!
+If you plan to attend the event at the Northwest Buffalo Community Center or Central Library, please indicate this when signing up. We'll provide you with information on the nearest location where you can conveniently get your free flu and/or COVID shot. Your health and well-being are our priorities, and we want to make it easy for you to stay protected during the winter season. Register today to secure your spot and access this valuable service!
           </InfoParagraph>
           <h3>Thank you to Wegmans for their generous partership!</h3>
         </TextContainer>
