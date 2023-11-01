@@ -197,7 +197,7 @@ const LocationsAndDates = ({id}) => {
           <StyledImg as={Img} fluid={data.northwest.childImageSharp.fluid} alt="Northwest Buffalo Community Center" />
           <LocationName>Northwest Buffalo Community Center</LocationName>
           <LocationAddress><a href="https://maps.google.com/?q=155+Lawn+Avenue" target="_blank">155 Lawn Avenue</a></LocationAddress>
-          <button><a href="https://forms.gle/fHducFesGRuNT3X57">Register</a></button>
+         
         </DateItem>
         <DateItem>
           <EventDate>November 8, 2023</EventDate>
@@ -205,7 +205,7 @@ const LocationsAndDates = ({id}) => {
           <StyledImg as={Img}fluid={data.belle.childImageSharp.fluid} alt="The Belle Center" />
           <LocationName>The Belle Center</LocationName>
           <LocationAddress><a href="https://maps.google.com/?q=104+Maryland+Street" target="_blank">104 Maryland Street</a></LocationAddress>
-          <button><a href="https://forms.gle/fHducFesGRuNT3X57">Register</a></button>
+          
         </DateItem>
         <DateItem>
           <EventDate>November 11, 2023</EventDate>
@@ -213,7 +213,7 @@ const LocationsAndDates = ({id}) => {
           <StyledImg as={Img} fluid={data.centrallibrary.childImageSharp.fluid} alt="Buffalo Central Library" />
           <LocationName>Buffalo Central Library</LocationName>
           <LocationAddress><a href="https://maps.google.com/?q=1+Lafayette+Square" target="_blank">1 Lafayette Square</a></LocationAddress>
-          <button><a href="https://forms.gle/fHducFesGRuNT3X57">Register</a></button>
+         
         </DateItem>
         <DateItem>
           <EventDate>November 14, 2023</EventDate>
@@ -221,7 +221,7 @@ const LocationsAndDates = ({id}) => {
           <StyledImg as={Img} fluid={data.delavan.childImageSharp.fluid} alt="Delavan Grider Community Center" />
           <LocationName>Delavan Grider Community Center</LocationName>
           <LocationAddress><a href="https://maps.google.com/?q=877+E+Delavan+Street" target="_blank">877 E. Delavan Street</a></LocationAddress>
-          <button><a href="https://forms.gle/fHducFesGRuNT3X57">Register</a></button>
+         
         </DateItem>
         <DateItem>
           <EventDate>November 16, 2023</EventDate>
@@ -229,7 +229,7 @@ const LocationsAndDates = ({id}) => {
           <StyledImg as={Img} fluid={data.tosh.childImageSharp.fluid} alt="Tosh Collins Community Center" />
           <LocationName>Tosh Collins Community Center</LocationName>
           <LocationAddress><a href="https://maps.google.com/?q=35+Cazenovia+Street" target="_blank">35 Cazenovia Street</a></LocationAddress>
-          <button><a href="https://forms.gle/fHducFesGRuNT3X57">Register</a></button>
+         
         </DateItem>
       </DatesList>
     </Wrapper>

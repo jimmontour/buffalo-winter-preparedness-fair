@@ -134,9 +134,9 @@ const Hero = () => {
       <CenterText as={animated.div} style={animationProps}>
         <Logo src={logo} alt="Buffalo Common Council Logo" />
         <h3>
-        Don't Miss This Free Event Series Across Five Unique Locations! Get Prepared for Winter and Connect with Your Community. Click Below to Register Now and Secure Your Spot!
+        Don't Miss This Free Event Series Across Five Unique Locations! Get Prepared for Winter and Connect with Your Community. Registration for Emergency Bags has closed, but all are welcome to attend this event series with over 40 vendors, contests, and resources!
         </h3>
-        <RegisterButton href="https://forms.gle/fHducFesGRuNT3X57">Register for Free</RegisterButton>
+       
       </CenterText>
     </HeroSection>
   );
